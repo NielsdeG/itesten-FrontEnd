@@ -15,7 +15,7 @@ module.exports = defineConfig({
   devServer: {
     proxy: {
       '/api': {
-        target: 'http://api:8080',
+        target: 'http://api',
         secure: true,
       }
     },
