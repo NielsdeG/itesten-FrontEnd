@@ -15,7 +15,7 @@ module.exports = defineConfig({
   devServer: {
     proxy: {
       '/api': {
-        target: 'http://spring',
+        target: 'http://spring:8080',
         secure: true,
       }
     },
